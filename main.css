@@ -1,0 +1,134 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.bar-menu {
+	background: darkred;
+}
+.bar-menu ul {
+	display: inline-flex;
+	margin: 50px;
+}
+.bar-menu ul li {
+	margin: 0 20px;
+	list-style: none;
+	cursor: pointer;
+	color: white;
+}
+.bar-menu ul li:hover{
+	color: yellow;
+}
+.bar-menu img {
+	width: 100px;
+	height: 100px;
+	margin-top: -50px;
+	margin-right: 5px;
+	display: block;
+	
+}
+.active {
+	color: yellow !important;
+}
+.signup {
+	top: 40px;
+	right: 80px;
+	color: yellow;
+	text-decoration: none;
+	position: absolute;
+	border: 2px solid black;
+	border-radius: 20px;
+	display: block;
+	padding: 8px 20px;
+}
+.banner {
+	left: 130px;
+}
+.app-text {
+	float: left;
+}
+.app-text h1 {
+	font-size: 40px;
+	width: 640px;
+	margin-left: 130px;
+}
+.app-text p {
+	font-size: 15px;
+	width: 650px;
+	margin-left: 130px;
+	color: darkslateblue;
+}
+.app-pic {
+	width: 50%;
+	float: right;
+}
+.app-pic img {
+	width: 70%;
+	padding-left: 50px;
+	margin-top: -25%;
+}
+.icon-play {
+	margin-left: 130px;
+	display: inline-flex;
+}
+.icon-inner {
+	font-size: 15px;
+	width: 35px;
+	height: 35px;
+	border: 2px solid black;
+	border-radius: 12%;
+	text-align: center;
+}
+.icon-inner .fa {
+	padding: 10px 0px;
+	font-size: 15px;
+
+}
+small {
+	margin: auto 20px;
+	font-size: 16px;
+	color: gray;
+	cursor: pointer;
+	letter-spacing: 5px;
+}
+.quick-links {
+	left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: darkred;
+    border: 1px solid black;
+}
+.quick-links ul {
+	display: inline-flex;
+    margin: 25px auto;
+    text-align: center;
+}
+.quick-links ul li {
+	margin: 0 50px;
+	list-style: none;
+}
+.quick-links ul li .fa {
+	color: yellow;
+	font-size: 20px;
+}
+.quick-links ul li p {
+	color: white;
+	padding-top: 10px;
+}
+.social-icons {
+	right: 40px;
+	bottom: 30px;
+	position: absolute;
+}
+.social-icons ul li {
+	list-style: none;
+	margin-top: 15px;
+	text-align: center;
+}
+.social-icons ul li a {
+	border: 1px solid black;
+	border-radius: 50px;
+	padding: 5px;
+	display: block;
+}
+
